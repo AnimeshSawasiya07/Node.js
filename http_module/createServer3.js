@@ -7,6 +7,7 @@ let server = http.createServer((request,response)=>{
     //console.log(parsedUrl);
     
     //console.log(parsedUrl.pathname);
+    console.log(request.method);
     
    if(request.url=="/" || request.url=="/home"){
     response.write("Home page");
