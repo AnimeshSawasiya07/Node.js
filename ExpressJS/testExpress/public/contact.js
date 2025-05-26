@@ -1,0 +1,1 @@
+console.log("Its contact page's JS")
